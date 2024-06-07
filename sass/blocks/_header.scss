@@ -1,0 +1,1038 @@
+.header{
+    width: 100%;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: column;
+
+    .navbar__wrapper{
+        min-height: 48px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: rgba(247, 235, 229, 1);
+        
+        .navbar__collection{
+            display: flex;
+            gap: 76px;
+            align-items: center;
+            justify-content: center;
+
+            .hamb{
+                display: none;
+            }
+
+            .navbar__title{
+                display: flex;
+                gap: 15px;
+
+                .navbar__text{
+                    font-family: Proxima Nova;
+                    font-size: 14px;
+                    font-weight: 400;
+                    line-height: 17.05px;
+
+                    &:hover{
+                        cursor: pointer;
+                        color: sandybrown;
+                    }
+
+                }
+            }
+
+            .navbar__icons{
+                display: flex;
+                gap: 30px;
+                
+                .icons{
+                    display: flex;
+                    flex-direction: row;
+                    gap: 8px;
+
+                    .navbar__paragraph{
+                        font-family: Proxima Nova;
+                        font-size: 14px;
+                        font-weight: 400;
+                        line-height: 17.05px;
+
+                        &:hover{
+                            cursor: pointer;
+                            color: sandybrown;
+                        }
+
+                    }
+                }
+            }
+        }
+    }
+
+    .navbar__logo{
+        display: flex;
+        justify-content: center;
+        margin-top: 19px;
+        margin-bottom: 16px;
+        
+        .navbar__menus{
+            display: flex;
+            align-items: center;
+            gap: 30px;
+            
+            .navbar__collect{
+                display: flex;
+                gap: 30px;
+
+                .menus__names{
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    
+                    .title{
+                        font-family: Proxima Nova;
+                        font-size: 14px;
+                        font-weight: 400;
+                        line-height: 17.05px;
+                        text-transform: uppercase;
+                        
+                        &:hover{
+                            color: sandybrown;
+                        }
+                    }
+                }
+            }
+            
+        }
+    }
+
+}
+
+@media (max-width:1114px) {
+    .navbar{
+        display: flex;
+        flex-direction: column;
+    
+        .navbar__wrapper{
+            min-height: 48px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: rgba(247, 235, 229, 1);
+            
+            .navbar__collection{
+                display: flex;
+                gap: 50px;
+                align-items: center;
+                justify-content: center;
+
+                .hamb{
+                    display: none;
+                }
+    
+                .navbar__title{
+                    display: flex;
+                    gap: 10px;
+    
+                    .navbar__text{
+                        font-family: Proxima Nova;
+                        font-size: 13px;
+                        font-weight: 400;
+                        line-height: 17.05px;
+    
+                        &:hover{
+                            cursor: pointer;
+                            color: sandybrown;
+                        }
+    
+                    }
+                }
+    
+                .navbar__icons{
+                    display: flex;
+                    gap: 25px;
+                    
+                    .icons{
+                        display: flex;
+                        flex-direction: row;
+                        gap: 6px;
+    
+                        .navbar__paragraph{
+                            font-family: Proxima Nova;
+                            font-size: 13px;
+                            font-weight: 400;
+                            line-height: 17.05px;
+    
+                            &:hover{
+                                cursor: pointer;
+                                color: sandybrown;
+                            }
+    
+                        }
+                    }
+                }
+            }
+        }
+    
+        .navbar__logo{
+            display: flex;
+            justify-content: center;
+            margin-top: 19px;
+            margin-bottom: 16px;
+            
+            .navbar__menus{
+                display: flex;
+                align-items: center;
+                gap: 30px;
+                
+                .navbar__collect{
+                    display: flex;
+                    gap: 30px;
+    
+                    .menus__names{
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        
+                        .title{
+                            font-family: Proxima Nova;
+                            font-size: 14px;
+                            font-weight: 400;
+                            line-height: 17.05px;
+                            text-transform: uppercase;
+                            
+                            &:hover{
+                                color: sandybrown;
+                            }
+                        }
+                    }
+                }
+                
+            }
+        }
+    
+    }
+}
+
+@media (max-width:990px) {
+    .navbar{
+        display: flex;
+        flex-direction: column;
+    
+        .navbar__wrapper{
+            min-height: 48px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: rgba(247, 235, 229, 1);
+            
+            .navbar__collection{
+                display: flex;
+                gap: 30px;
+                align-items: center;
+                justify-content: center;
+
+                .hamb{
+                    display: none;
+                }
+    
+                .navbar__title{
+                    display: flex;
+                    gap: 8px;
+    
+                    .navbar__text{
+                        font-family: Proxima Nova;
+                        font-size: 12px;
+                        font-weight: 400;
+                        line-height: 17.05px;
+    
+                        &:hover{
+                            cursor: pointer;
+                            color: sandybrown;
+                        }
+    
+                    }
+                }
+    
+                .navbar__icons{
+                    display: flex;
+                    gap: 15px;
+                    
+                    .icons{
+                        display: flex;
+                        flex-direction: row;
+                        gap: 4px;
+    
+                        .navbar__paragraph{
+                            font-family: Proxima Nova;
+                            font-size: 12px;
+                            font-weight: 400;
+                            line-height: 17.05px;
+    
+                            &:hover{
+                                cursor: pointer;
+                                color: sandybrown;
+                            }
+    
+                        }
+                    }
+                }
+            }
+        }
+    
+        .navbar__logo{
+            display: flex;
+            justify-content: center;
+            margin-top: 15px;
+            margin-bottom: 16px;
+            
+            .navbar__menus{
+                display: flex;
+                align-items: center;
+                gap: 20px;
+                
+                .navbar__collect{
+                    display: flex;
+                    gap: 20px;
+    
+                    .menus__names{
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        
+                        .title{
+                            font-family: Proxima Nova;
+                            font-size: 13px;
+                            font-weight: 400;
+                            line-height: 17.05px;
+                            text-transform: uppercase;
+                            
+                            &:hover{
+                                color: sandybrown;
+                            }
+                        }
+                    }
+                }
+                
+            }
+        }
+    
+    }
+}
+@media (max-width:880px) {
+    .navbar{
+        display: flex;
+        flex-direction: column;
+    
+        .navbar__wrapper{
+            min-height: 88px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: rgba(247, 235, 229, 1);
+            
+            .navbar__collection{
+                display: flex;
+                gap: 30px;
+                align-items: center;
+                justify-content: center;
+
+                .hamb{
+                    display: flex;
+                    margin-left: 40px;
+                }
+    
+                .navbar__title{
+                    display: none;
+                    gap: 8px;
+    
+                    .navbar__text{
+                        font-family: Proxima Nova;
+                        font-size: 12px;
+                        font-weight: 400;
+                        line-height: 17.05px;
+    
+                        &:hover{
+                            cursor: pointer;
+                            color: sandybrown;
+                        }
+    
+                    }
+                }
+    
+                .navbar__icons{
+                    display: flex;
+                    gap: 15px;
+                    justify-content: end;
+                    
+                    .icons{
+                        display: flex;
+                        justify-content: end;
+                        flex-direction: row;
+                        gap: 4px;
+                        
+
+                        .fa-location-dot{
+                            display: none;
+                        }
+
+                        .fa-mobile-screen{
+                            display: none;
+                        }
+
+                        .fa-telegram{
+                            display: none;
+                        }
+
+                        .fa-vk{
+                            display: none;
+                        }
+
+                        .fa-odnoklassniki{
+                            display: none;
+                        }
+
+                        .fa-bucket{
+                            display: flex;
+                            justify-content: right;
+                            margin-left: 740px;
+                        }                        
+
+                 
+                        .navbar__paragraph{
+                            display: none;
+                            font-family: Proxima Nova;
+                            font-size: 12px;
+                            font-weight: 400;
+                            line-height: 17.05px;
+    
+                            &:hover{
+                                cursor: pointer;
+                                color: sandybrown;
+                            }
+    
+                        }
+                    }
+                }
+            }
+        }
+    
+        .navbar__logo{
+            display: flex;
+            justify-content: center;
+
+            .navbar__images{
+                display: flex;
+                width: 80px;
+                margin-top: -100px;
+            }
+            
+            .navbar__menus{
+                display: flex;
+                align-items: center;
+                gap: 20px;
+                
+                .navbar__collect{
+                    display: flex;
+                    gap: 20px;
+    
+                    .menus__names{
+                        display: none;
+                        align-items: center;
+                        justify-content: center;
+                        
+                        .title{
+                            font-family: Proxima Nova;
+                            font-size: 13px;
+                            font-weight: 400;
+                            line-height: 17.05px;
+                            text-transform: uppercase;
+                            
+                            &:hover{
+                                color: sandybrown;
+                            }
+                        }
+                    }
+                }
+                
+            }
+        }
+    
+    }
+}
+@media (max-width:830px) {
+    .navbar{
+        display: flex;
+        flex-direction: column;
+    
+        .navbar__wrapper{
+            min-height: 88px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: rgba(247, 235, 229, 1);
+            
+            .navbar__collection{
+                display: flex;
+                gap: 30px;
+                align-items: center;
+                justify-content: center;
+
+                .hamb{
+                    display: flex;
+                    align-items: start;
+                
+                }
+    
+                .navbar__title{
+                    display: none;
+                    gap: 8px;
+    
+                    .navbar__text{
+                        font-family: Proxima Nova;
+                        font-size: 12px;
+                        font-weight: 400;
+                        line-height: 17.05px;
+    
+                        &:hover{
+                            cursor: pointer;
+                            color: sandybrown;
+                        }
+    
+                    }
+                }
+    
+                .navbar__icons{
+                    display: flex;
+                    gap: 15px;
+                    justify-content: end;
+                    
+                    .icons{
+                        display: flex;
+                        justify-content: end;
+                        flex-direction: row;
+                        gap: 4px;
+                        
+
+                        .fa-location-dot{
+                            display: none;
+                        }
+
+                        .fa-mobile-screen{
+                            display: none;
+                        }
+
+                        .fa-telegram{
+                            display: none;
+                        }
+
+                        .fa-vk{
+                            display: none;
+                        }
+
+                        .fa-odnoklassniki{
+                            display: none;
+                        }
+
+                        .fa-bucket{
+                            display: flex;
+                            justify-content: right;
+                            margin-left: 540px;
+                        }                        
+
+                 
+                        .navbar__paragraph{
+                            display: none;
+                            font-family: Proxima Nova;
+                            font-size: 12px;
+                            font-weight: 400;
+                            line-height: 17.05px;
+    
+                            &:hover{
+                                cursor: pointer;
+                                color: sandybrown;
+                            }
+    
+                        }
+                    }
+                }
+            }
+        }
+    
+        .navbar__logo{
+            display: flex;
+            justify-content: center;
+
+            .navbar__images{
+                display: flex;
+                width: 80px;
+                margin-top: -100px;
+            }
+            
+            .navbar__menus{
+                display: flex;
+                align-items: center;
+                gap: 20px;
+                
+                .navbar__collect{
+                    display: flex;
+                    gap: 20px;
+    
+                    .menus__names{
+                        display: none;
+                        align-items: center;
+                        justify-content: center;
+                        
+                        .title{
+                            font-family: Proxima Nova;
+                            font-size: 13px;
+                            font-weight: 400;
+                            line-height: 17.05px;
+                            text-transform: uppercase;
+                            
+                            &:hover{
+                                color: sandybrown;
+                            }
+                        }
+                    }
+                }
+                
+            }
+        }
+    
+    }
+}
+@media (max-width:650px) {
+    .navbar{
+        display: flex;
+        flex-direction: column;
+    
+        .navbar__wrapper{
+            min-height: 88px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: rgba(247, 235, 229, 1);
+            
+            .navbar__collection{
+                display: flex;
+                gap: 30px;
+                align-items: center;
+                justify-content: center;
+
+                .hamb{
+                    display: flex;
+                    margin-left: 0px;
+                    align-items: start;
+                
+                }
+    
+                .navbar__title{
+                    display: none;
+                    gap: 8px;
+    
+                    .navbar__text{
+                        font-family: Proxima Nova;
+                        font-size: 12px;
+                        font-weight: 400;
+                        line-height: 17.05px;
+    
+                        &:hover{
+                            cursor: pointer;
+                            color: sandybrown;
+                        }
+    
+                    }
+                }
+    
+                .navbar__icons{
+                    display: flex;
+                    gap: 15px;
+                    justify-content: end;
+                    
+                    .icons{
+                        display: flex;
+                        justify-content: end;
+                        flex-direction: row;
+                        gap: 4px;
+                        
+
+                        .fa-location-dot{
+                            display: none;
+                        }
+
+                        .fa-mobile-screen{
+                            display: none;
+                        }
+
+                        .fa-telegram{
+                            display: none;
+                        }
+
+                        .fa-vk{
+                            display: none;
+                        }
+
+                        .fa-odnoklassniki{
+                            display: none;
+                        }
+
+                        .fa-bucket{
+                            display: flex;
+                            justify-content: right;
+                            margin-left: 340px;
+                        }                        
+
+                 
+                        .navbar__paragraph{
+                            display: none;
+                            font-family: Proxima Nova;
+                            font-size: 12px;
+                            font-weight: 400;
+                            line-height: 17.05px;
+    
+                            &:hover{
+                                cursor: pointer;
+                                color: sandybrown;
+                            }
+    
+                        }
+                    }
+                }
+            }
+        }
+    
+        .navbar__logo{
+            display: flex;
+            justify-content: center;
+
+            .navbar__images{
+                display: flex;
+                width: 80px;
+                margin-top: -100px;
+            }
+            
+            .navbar__menus{
+                display: flex;
+                align-items: center;
+                gap: 20px;
+                
+                .navbar__collect{
+                    display: flex;
+                    gap: 20px;
+    
+                    .menus__names{
+                        display: none;
+                        align-items: center;
+                        justify-content: center;
+                        
+                        .title{
+                            font-family: Proxima Nova;
+                            font-size: 13px;
+                            font-weight: 400;
+                            line-height: 17.05px;
+                            text-transform: uppercase;
+                            
+                            &:hover{
+                                color: sandybrown;
+                            }
+                        }
+                    }
+                }
+                
+            }
+        }
+    
+    }
+}
+@media (max-width:500px) {
+    .navbar{
+        display: flex;
+        flex-direction: column;
+    
+        .navbar__wrapper{
+            min-height: 88px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: rgba(247, 235, 229, 1);
+            
+            .navbar__collection{
+                display: flex;
+                gap: 30px;
+                align-items: center;
+                justify-content: center;
+
+                .hamb{
+                    display: flex;
+                    margin-left: 50px;
+                    align-items: start;
+                    text-align: right;
+                
+                }
+    
+                .navbar__title{
+                    display: none;
+                    gap: 8px;
+    
+                    .navbar__text{
+                        font-family: Proxima Nova;
+                        font-size: 12px;
+                        font-weight: 400;
+                        line-height: 17.05px;
+    
+                        &:hover{
+                            cursor: pointer;
+                            color: sandybrown;
+                        }
+    
+                    }
+                }
+    
+                .navbar__icons{
+                    display: flex;
+                    gap: 15px;
+                    justify-content: end;
+                    
+                    .icons{
+                        display: flex;
+                        justify-content: end;
+                        flex-direction: row;
+                        gap: 4px;
+                        
+
+                        .fa-location-dot{
+                            display: none;
+                        }
+
+                        .fa-mobile-screen{
+                            display: none;
+                        }
+
+                        .fa-telegram{
+                            display: none;
+                        }
+
+                        .fa-vk{
+                            display: none;
+                        }
+
+                        .fa-odnoklassniki{
+                            display: none;
+                        }
+
+                        .fa-bucket{
+                            display: flex;
+                            justify-content: right;
+                            margin-left: 340px;
+                        }                        
+
+                 
+                        .navbar__paragraph{
+                            display: none;
+                            font-family: Proxima Nova;
+                            font-size: 12px;
+                            font-weight: 400;
+                            line-height: 17.05px;
+    
+                            &:hover{
+                                cursor: pointer;
+                                color: sandybrown;
+                            }
+    
+                        }
+                    }
+                }
+            }
+        }
+    
+        .navbar__logo{
+            display: flex;
+            justify-content: center;
+
+            .navbar__images{
+                display: flex;
+                width: 80px;
+                margin-top: -100px;
+            }
+            
+            .navbar__menus{
+                display: flex;
+                align-items: center;
+                gap: 20px;
+                
+                .navbar__collect{
+                    display: flex;
+                    gap: 20px;
+    
+                    .menus__names{
+                        display: none;
+                        align-items: center;
+                        justify-content: center;
+                        
+                        .title{
+                            font-family: Proxima Nova;
+                            font-size: 13px;
+                            font-weight: 400;
+                            line-height: 17.05px;
+                            text-transform: uppercase;
+                            
+                            &:hover{
+                                color: sandybrown;
+                            }
+                        }
+                    }
+                }
+                
+            }
+        }
+    
+    }
+}
+@media (max-width:440px) {
+    .navbar{
+        display: flex;
+        flex-direction: column;
+    
+        .navbar__wrapper{
+            min-height: 88px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: rgba(247, 235, 229, 1);
+            
+            .navbar__collection{
+                display: flex;
+                gap: 30px;
+                align-items: center;
+                justify-content: center;
+
+                .hamb{
+                    display: flex;
+                    margin-left: 10px;
+                    align-items: start;
+                    text-align: right;
+                
+                }
+    
+                .navbar__title{
+                    display: none;
+                    gap: 8px;
+    
+                    .navbar__text{
+                        font-family: Proxima Nova;
+                        font-size: 12px;
+                        font-weight: 400;
+                        line-height: 17.05px;
+    
+                        &:hover{
+                            cursor: pointer;
+                            color: sandybrown;
+                        }
+    
+                    }
+                }
+    
+                .navbar__icons{
+                    display: flex;
+                    gap: 15px;
+                    justify-content: end;
+                    
+                    .icons{
+                        display: flex;
+                        justify-content: end;
+                        flex-direction: row;
+                        gap: 4px;
+                        
+
+                        .fa-location-dot{
+                            display: none;
+                        }
+
+                        .fa-mobile-screen{
+                            display: none;
+                        }
+
+                        .fa-telegram{
+                            display: none;
+                        }
+
+                        .fa-vk{
+                            display: none;
+                        }
+
+                        .fa-odnoklassniki{
+                            display: none;
+                        }
+
+                        .fa-bucket{
+                            display: flex;
+                            justify-content: right;
+                            margin-left: 240px;
+                        }                       
+
+                 
+                        .navbar__paragraph{
+                            display: none;
+                            font-family: Proxima Nova;
+                            font-size: 12px;
+                            font-weight: 400;
+                            line-height: 17.05px;
+    
+                            &:hover{
+                                cursor: pointer;
+                                color: sandybrown;
+                            }
+    
+                        }
+                    }
+                }
+            }
+        }
+    
+        .navbar__logo{
+            display: flex;
+            justify-content: center;
+
+            .navbar__images{
+                display: flex;
+                width: 80px;
+                margin-top: -100px;
+            }
+            
+            .navbar__menus{
+                display: flex;
+                align-items: center;
+                gap: 20px;
+                
+                .navbar__collect{
+                    display: flex;
+                    gap: 20px;
+    
+                    .menus__names{
+                        display: none;
+                        align-items: center;
+                        justify-content: center;
+                        
+                        .title{
+                            font-family: Proxima Nova;
+                            font-size: 13px;
+                            font-weight: 400;
+                            line-height: 17.05px;
+                            text-transform: uppercase;
+                            
+                            &:hover{
+                                color: sandybrown;
+                            }
+                        }
+                    }
+                }
+                
+            }
+        }
+    
+    }
+}
+
+
+
+
+
